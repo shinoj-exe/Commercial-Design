@@ -365,7 +365,6 @@ p{
     background-image: linear-gradient(to right , #177052, #256e6b, #1caf8a, #3ac786,white,white,white);
 }
 /* ABOUT US */
-
 .about{
     display: flex;
     padding: 3rem 0 ;
@@ -382,10 +381,36 @@ p{
 }
 .left-half{
     flex: 1;
+    padding: 1rem;
 }
 .right-half{
     flex: 1;
+    padding: 1rem;
 }
+
+@media (max-width:760px) {
+    .about{
+        margin-top: 2rem;
+    }
+    .left-half{
+        padding: 0 4rem;
+    }
+    .right-half{
+        padding: 4rem;
+    }
+    .description{
+        padding-bottom: 0;
+    }
+}
+@media (max-width:600px) {
+    .about{
+        flex-direction: column;
+    }
+    .offerings{
+        flex-direction: column;
+    }
+}
+
 
 /* PRODUCT LIST PAGE */
 .title{
