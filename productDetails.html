@@ -14,18 +14,18 @@
         <div class="header container">
             <div class="nav-bar">
                 <div class="brand">
-                    <a href="#home"><h1><span>C</span>OMPANY <span>N</span>AME</h1></a>
+                    <a href="/index.html"><h1><span>C</span>OMPANY <span>N</span>AME</h1></a>
                 </div>
                 <div class="nav-list">
                     <div class="hamburger">
                         <i class="fas fa-bars"></i>
                     </div>               
                     <ul class="mainMenu">   
-                        <li><a href="#home" data-after="Home">Home</a></li>
-                        <li><a href="#categories" data-after="Categories">Categories</a></li>
-                        <li><a href="#about" data-after="About">About</a></li>
-                        <li><a href="#offerings" data-after="Projects">Offerings</a></li>
-                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                        <li><a href="/index.html" data-after="Home">Home</a></li>
+                        <li><a href="/index.html#categories" data-after="Categories">Categories</a></li>
+                        <li><a href="/index.html#about" data-after="About">About</a></li>
+                        <li><a href="/index.html#offerings" data-after="Projects">Offerings</a></li>
+                        <li><a href="/index.html#contacts" data-after="Contact">Contact</a></li>
                         
                         <div class="closeMenu">
                         <i class="far fa-window-close"></i>
@@ -42,55 +42,59 @@
 </div>
 
 <div class="product-content">
-     <!--image slider start-->
-     <div class="slider">
-        <div class="images">
-            <input type="radio" name="slide" id="img1" checked>
-            <input type="radio" name="slide" id="img2">
-            <input type="radio" name="slide" id="img3">
-            <input type="radio" name="slide" id="img4">
-    
-            <img src="/assets/Images/product2.jpg" class="m1" alt="img1">
-            <img src="/assets/Images/product3.jpg" class="m2" alt="img2">
-            <img src="/assets/Images/product1.jpg" class="m3" alt="img3">
-            <img src="/assets/Images/product5.jpg" class="m4" alt="img4">
+    <div class="main-product">
+        <!--image slider start-->
+        <div class="slider-wrapper">
+            <div class="slider">
+               <div class="images">
+                   <input type="radio" name="slide" id="img1" checked>
+                   <input type="radio" name="slide" id="img2">
+                   <input type="radio" name="slide" id="img3">
+                   <input type="radio" name="slide" id="img4">
+           
+                   <img src="/assets/Images/product2.jpg" class="m1" alt="img1">
+                   <img src="/assets/Images/product3.jpg" class="m2" alt="img2">
+                   <img src="/assets/Images/product1.jpg" class="m3" alt="img3">
+                   <img src="/assets/Images/product5.jpg" class="m4" alt="img4">
+               </div>
+               <div class="dots">
+                   <label for="img1"></label>
+                   <label for="img2"></label>
+                   <label for="img3"></label>
+                   <label for="img4"></label>
+               </div>
+           </div>
+             <!--image slider end-->
         </div>
-        <div class="dots">
-            <label for="img1"></label>
-            <label for="img2"></label>
-            <label for="img3"></label>
-            <label for="img4"></label>
-        </div>
-    </div>
-      <!--image slider end-->
-    <div class="product-details">
-        <div class="details-top">
-            <div class="product-description">Brief Description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, maiores?</div>
-            <div class="product-cash">
-                <div class="price-title">Product Price</div>
-                <div class="price">₹ 240/piece</div>
-            </div>
-        </div>
-        <div class="other-details">
-            <ul class="extra-details">
-                <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
-                <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
-                <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
-                <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
-                <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
-            </ul>
-        </div>
-        <div class="purchase-buttons">
-            <div class="sample-btn purchase-btn">
-                <button class="btn">Request A Sample</button>
-            </div>
-            <div class="cart-btn purchase-btn">
-                <button class="btn">Add To Cart</button>
-            </div>
-        </div>
-        <div class="favorite">
-            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> Add To Favorites</a>
-        </div>
+       <div class="product-details">
+           <div class="details-top">
+               <div class="product-description">Brief Description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, maiores?</div>
+               <div class="product-cash">
+                   <div class="price-title">Product Price:</div>
+                   <div class="price">₹ 240/piece</div>
+               </div>
+           </div>
+           <div class="other-details">
+               <ul class="extra-details">
+                   <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
+                   <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
+                   <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
+                   <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
+                   <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Other details to be inserted</li>
+               </ul>
+           </div>
+           <div class="purchase-buttons">
+               <div class="sample-btn purchase-btn">
+                   <button class="btn">Request A Sample</button>
+               </div>
+               <div class="cart-btn purchase-btn">
+                   <button class="btn">Add To Cart</button>
+               </div>
+           </div>
+           <div class="favorite">
+               <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i> Add To Favorites</a>
+           </div>
+       </div>
     </div>
 </div>
 
