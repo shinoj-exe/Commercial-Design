@@ -46,7 +46,7 @@ p{
     background-color: #12364be3;
     border: 1px solid #34ba7c ;
     border-radius: 150px;
-    color: white;
+    color: #fff;
     font-weight: bold;
     padding: 1.5rem 1.8rem;
     cursor: pointer;
@@ -57,10 +57,10 @@ p{
 }
 .btn:hover{
     background-color: #1aa966;
-    color: white;
+    color: #fff;
     /* color: #34ba7c; */
     color: #29494b;
-    background-color: white;
+    background-color: #fff;
 }  
 .section-title{
     font-size: 2rem;
@@ -71,7 +71,7 @@ p{
     letter-spacing: .5rem;
     text-align: center;
     /* border-bottom: #34ba7c 10px solid ; */
-    border-bottom: linear-gradient(white, #34ba7c) 10px solid;
+    border-bottom: linear-gradient(#fff, #34ba7c) 10px solid;
 }
 .section-title span{
     color: #34ba7c;
@@ -80,7 +80,7 @@ p{
 .cta{
     display: inline-block;
     padding: 10px 30px;
-    color: white;
+    color: #fff;
     background-color: transparent;
     border: 2px solid #34ba7c;
     font-size: 2rem;
@@ -97,7 +97,7 @@ p{
 .brand h1{
     font-size: 3rem;
     text-transform: uppercase;
-    color: white;
+    color: #fff;
 }
 .brand h1 span{
     color: #34ba7c;
@@ -125,7 +125,7 @@ p{
     padding: 0 10px;
 }
 #header .nav-list .hamburger{
-    color: white;
+    color: #fff;
     font-size: 35px;
     padding-right: 20px;
     cursor: pointer;
@@ -151,7 +151,7 @@ p{
     left: 0%;
 }
 #header .nav-bar .nav-list .mainMenu .closeMenu{
-    color: white;
+    color: #fff;
     font-size: 40px;
     position: absolute;
     cursor: pointer;
@@ -165,7 +165,7 @@ p{
     font-weight: 500;
     letter-spacing: .2rem;
     text-decoration: none;
-    color: white;
+    color: #fff;
     text-transform: uppercase;
     padding: 20px;
     display: block;
@@ -316,7 +316,7 @@ p{
 
 }
 .cat-title{
-    color: white;
+    color: #fff;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
     font-size: 1.9rem;
@@ -357,7 +357,7 @@ p{
     height: 5px;
     bottom: -1rem;
     background-color: #34ba7c;
-    background-image: linear-gradient(to right , #177052, #256e6b, #1caf8a, #3ac786,white,white,white);
+    background-image: linear-gradient(to right , #177052, #256e6b, #1caf8a, #3ac786,#fff,#fff,#fff);
 }
 /* ABOUT US */
 .about{
@@ -394,7 +394,7 @@ p{
 }
 .title h1{
     font-size: 6rem;
-    color: white;
+    color: #fff;
     text-align: center;
 }
 
@@ -791,12 +791,8 @@ p{
     .slider-wrapper{
         display: flex;
         justify-content: center;
+        margin-bottom: 2rem;
     }
-    /* .images img {
-        height: 300px;
-        width: 300px;
-    } */
-
 }
 @media (max-width:500px) {
     .product{
