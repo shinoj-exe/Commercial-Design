@@ -689,17 +689,25 @@ p{
     letter-spacing: 1.1px;
 }
 
-/* Footer */
-
 /* Footer Section */
 footer{
-    padding: 56px 76px 32px;
+    background-color: #292929;
+    background-color: #29494baf;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
-.footer-logo{
-    min-height: 60px;
-    min-width: 60px;
+.footer-wrapper{
+    /* padding: 56px 76px 0px; */
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.news-section{
+    flex: 1;
 }
 .footer-links{
+    flex: 1;
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
@@ -707,19 +715,11 @@ footer{
 .footer-cols{
     display: flex;
     justify-content: space-around;
-    width: 1000px;
+    width: 400px;
     margin-right: 50px;
 }
-
-.heading{
-    cursor: pointer;
-    padding-bottom: 12px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    color: #1d1d1d;
-    font-weight: 600;
-    letter-spacing: 0.7px;
-    font-size: 14px;
+.footer-heading p{
+    color: white;
 }
 .links li{
     margin: 20px 0;
@@ -729,7 +729,7 @@ footer{
     font-family: sans-serif;
     letter-spacing: 0.5px;
     font-size: 13px;
-    color: #292929;
+    color: #fff;
     font-size: 13px;
     letter-spacing: 0.5px;
 }
@@ -755,7 +755,7 @@ footer{
 }
 .private-links li a{
     font-size: 14px;
-    color: #1d1d1d;
+    color: #fff;
     font-family:"Lato";
     font-weight: 600;
     margin-right: 16px;
@@ -936,5 +936,48 @@ footer{
     }
     .details-top{
         text-align: center;
+    }
+    footer{
+        padding: 17px ;
+    }
+    .footer-cols{
+        flex-direction: column;
+    }
+    .col-heading.hidden ul{
+        display: none;
+    }
+    .heading p{
+        position: relative;
+        padding: 10px 0;
+    }
+    .heading p::after{
+        display: inline-block;
+        content: ' ';
+        position: absolute;
+        width: 1em;
+        height: 1em;
+        background-image: url("https://a.slack-edge.com/3dfa4/marketing/img/icons/icon_chevron_big_black.svg");
+        background-position-y: center;
+        background-repeat: no-repeat;
+        right: 0px;
+        transform-origin: 0%;
+        transition: transform 0.2s ease-in;
+    }
+    .col-heading.hidden .heading p::after{
+        transform: rotate(0deg);
+    }
+    .col-heading .heading p::after{
+        transform: rotate(90deg);
+    }
+    .social-links{
+        flex-direction: column;
+    }
+    .social-media{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .social-media i{
+        margin-left: 0;
     }
 }
