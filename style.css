@@ -688,6 +688,124 @@ p{
     font-size: 1.7rem;
     letter-spacing: 1.1px;
 }
+
+/* Footer */
+
+/* Footer Section */
+footer{
+    padding: 56px 76px 32px;
+}
+.footer-logo{
+    min-height: 60px;
+    min-width: 60px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.footer-cols{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin-right: 50px;
+}
+
+.heading{
+    cursor: pointer;
+    padding-bottom: 12px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-size: 14px;
+}
+.links li{
+    margin: 20px 0;
+
+}
+.links li a {
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    color: #292929;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.links li a:hover{
+    color: #356da9;
+}
+
+.end{
+    text-align: center;
+    font-family: "Lato";
+    background-color:#1d1d1d;
+    color: #fff;
+}
+/* SOCIAL */
+.social{
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid #ebeaeb 2.5px;
+}
+.private-links{
+    display: flex;
+}
+.private-links li a{
+    font-size: 14px;
+    color: #1d1d1d;
+    font-family:"Lato";
+    font-weight: 600;
+    margin-right: 16px;
+}
+.private-links li a .fa-globe{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.private-links li a .fa-chevron-down{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.private-links li a:hover{
+    color: #34ba7c;
+}
+/* social-media */
+
+.social-links{
+    display: flex;
+}
+.social-media{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.to-download a{
+    display: flex;
+    color: #34ba7c;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 600;
+}
+.to-download a img{
+    margin-right: 10px;
+}
+.social-media i{
+    color: #454545;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.social-media a i:hover{
+    color: #34ba7c;
+}
+.legal p{
+    font-family: sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+
 @media (max-width:900px) {
     .category-content{
         flex-direction: column;
