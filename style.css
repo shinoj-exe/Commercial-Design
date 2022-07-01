@@ -940,6 +940,9 @@ footer{
     footer{
         padding: 17px ;
     }
+    .footer-wrapper{
+        flex-direction: column;
+    }
     .footer-cols{
         flex-direction: column;
     }
