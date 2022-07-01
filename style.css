@@ -716,7 +716,7 @@ footer{
     display: flex;
     justify-content: space-around;
     /* width: 300px; */
-    width: 100%;
+    /* width: 100%; */
     margin-right: 50px;
 }
 .footer-heading p{
@@ -963,7 +963,7 @@ footer{
         background-image: url("https://a.slack-edge.com/3dfa4/marketing/img/icons/icon_chevron_big_black.svg");
         background-position-y: center;
         background-repeat: no-repeat;
-        right: 0px;
+        /* right: 0px; */
         transform-origin: 0%;
         transition: transform 0.2s ease-in;
     }
