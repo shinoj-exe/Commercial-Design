@@ -716,7 +716,7 @@ footer{
     display: flex;
     justify-content: space-around;
     /* width: 300px; */
-    /* width: 100%; */
+    width: 100%;
     margin-right: 50px;
 }
 .footer-heading p{
@@ -939,7 +939,7 @@ footer{
         text-align: center;
     }
     footer{
-        padding: 1rem ;
+        padding: 2rem ;
     }
     .footer-wrapper{
         flex-direction: column;
