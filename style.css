@@ -938,7 +938,7 @@ footer{
         text-align: center;
     }
     footer{
-        padding: 17px ;
+        padding: 1rem ;
     }
     .footer-wrapper{
         flex-direction: column;
