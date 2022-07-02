@@ -977,6 +977,15 @@ footer{
         justify-content: center;
         margin-bottom: 2rem;
     }
+    .contact{
+        flex-direction: column;
+    }
+    .contact-address{
+        margin: 0;
+    }
+    .contact-number{
+        text-align: center;
+    }
 }
 @media (max-width:500px) {
     .product{
