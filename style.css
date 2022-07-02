@@ -833,8 +833,42 @@ footer{
     letter-spacing: 0.2px;
     text-align: center;
 }
-
-
+.contact{
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    padding: 1rem;
+    border-top:  2px solid #177052;
+}
+.contact-details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.contact-heading{
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #29494b;
+    text-transform: uppercase;
+}
+.contact-address{
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+.contact-number ul li{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    color: #29494b;
+}
+.contact-map{
+    flex: 1;
+}
+.contact-map iframe{
+    width: 100%;
+}
 @media (max-width:900px) {
     .category-content{
         flex-direction: column;
