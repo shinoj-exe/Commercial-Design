@@ -575,6 +575,7 @@ p{
 /* PRODUCT DETAILS */
 .product-content{
     display: flex;
+    flex-direction: column;
     max-width: 1100px;
     margin: 0 auto;
     padding: 2rem 1rem;
@@ -688,6 +689,105 @@ p{
     font-size: 1.7rem;
     letter-spacing: 1.1px;
 }
+
+/* TABS */
+.details-tabs{
+    box-shadow: 1.5px 1.5px 2px 2px rgb(0 0 0 / 16%);
+    background-color: #3e676a73;
+    margin-top: 2rem;
+
+}
+.tabs-top-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.tab-item{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1d1d1d;
+    cursor: pointer;
+}
+.tabs {
+    padding-top: 1rem;
+	border-bottom: 2px solid #177052;   
+	border-right: none;
+}
+.tab-item{
+    flex: 1;
+}
+.tabs p {
+    color: #292929;
+    font-weight: bold;
+    letter-spacing: 2px;
+	font-size: 1.6rem;
+    text-transform: uppercase;
+	padding-top: 0.5rem;
+}
+
+.tab-border {
+	border-bottom: #34ba7c 4px solid;
+}
+/* .tab-content-item{
+    min-height: 250px;
+} */
+/* Tab Content */
+.tab-content {
+	padding: 3rem 2rem;
+}
+
+/* Hide initial content */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+	display: none;
+	opacity: 0;
+}
+
+.show {
+	display: block !important;
+	opacity: 1 !important;
+	transition: all 1000 ease-in;
+}
+.quick-del-btn{
+    text-align: center;
+    font-size: 2rem;
+}
+.faq-list ul li{
+    margin: 2rem 0;
+    font-size: 1.5rem;
+
+}
+#tab-1-content .tab-1-content-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#tab-1-content .tab-1-content-inner h3{
+    flex: 2;
+    padding-left: 2rem;
+}
+#tab-1-content .tab-1-content-inner p{
+    flex: 3;
+}
+#tab-2-content .tab-2-content-top {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+
+#tab-2-content .tab-2-content-bottom {
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2rem;
+	text-align: center;
+}
+
 
 /* Footer Section */
 footer{
