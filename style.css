@@ -992,6 +992,7 @@ footer{
     .footer-wrapper{
         flex-direction: column;
     }
+    
 }
 @media (max-width:760px) {
     .about{
@@ -1060,6 +1061,14 @@ footer{
         width: 100%;
         margin: 0.5rem 0;
     }
+	.btn-xl {
+		font-size: 1rem;
+		padding: 1.2rem 1.6rem;
+		text-transform: uppercase;
+	}
+    .hide-sm {
+		display: none;
+	}
     
 }
 @media (max-width:600px) {
@@ -1158,6 +1167,13 @@ footer{
     .social-media i{
         margin-left: 0;
     }
+    .tab-1-content-inner{
+        flex-direction: column;
+    }
+    #tab-2-content .tab-2-content-top {
+		display: block;
+		text-align: center;
+	}
 }
 
 
