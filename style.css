@@ -969,6 +969,60 @@ footer{
 .contact-map iframe{
     width: 100%;
 }
+/* Sustainability */
+.sus-img-container img{
+    max-height: 50vh;
+}
+.sus-intro-wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.sus-title{
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.3rem;
+    position: relative;
+}
+.sus-title::before{
+    position: absolute;
+    content: "";
+    width: 45%;
+    height: 5px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 175%;
+    background-color: #3ac786;
+}
+.sus-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 15rem;
+    /* justify-content: center; */
+}
+.sus-desc{
+    letter-spacing: 0.8px;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 4rem;
+}
+.sus-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.sus-video video{
+    width: 100%;
+}
+.sus-info{    
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
 @media (max-width:900px) {
     .category-content{
         flex-direction: column;
