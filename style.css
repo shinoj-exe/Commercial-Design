@@ -1043,8 +1043,6 @@ footer{
 }
 .contact-img img{
     transform: scale(.7);
-    /* width: 100%; */
-    /* object-fit: cover; */
 }
 #contact {
   background: #F9F9F9;
@@ -1245,7 +1243,17 @@ fieldset {
     .hide-sm {
 		display: none;
 	}
-    
+    .contact-section{
+        flex-direction: column;
+    }
+    #contact{
+         margin: 0;
+         padding-top: 0;
+    }
+    .contact-img{
+        width: 75%;
+        margin: 0 auto;
+    }
 }
 @media (max-width:600px) {
     .about{
