@@ -222,7 +222,7 @@ p{
     left: 0;
     width: 100vw;
     background-color: #12364be3;
-    opacity: 0.5;
+    opacity: 0.75;
     /* z-index: 1; */
     overflow: hidden;
 }
@@ -1365,3 +1365,18 @@ fieldset {
 }
 
 
+.header-overlay p{
+    color: white;
+    border: white solid 2px;
+    z-index: 20;
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 6rem;
+    padding: 5rem;
+}
+.header-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
