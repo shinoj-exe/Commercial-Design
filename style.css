@@ -271,7 +271,7 @@ p{
 .categories{
     display: flex;
     flex-direction: column;
-    padding-top: 4rem;
+    padding-top: 7rem;
     /* align-items: center;
     justify-content: center; */
 }
