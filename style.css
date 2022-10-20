@@ -694,7 +694,7 @@ p{
 /* TABS */
 .details-tabs{
     box-shadow: 1.5px 1.5px 2px 2px rgb(0 0 0 / 16%);
-    background-color: #3e676a73;
+    /* background-color: #3e676a73; */
     margin-top: 2rem;
 
 }
@@ -763,8 +763,9 @@ p{
 }
 #tab-1-content .tab-1-content-inner {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 #tab-1-content .tab-1-content-inner h3{
     flex: 2;
@@ -772,13 +773,6 @@ p{
 }
 #tab-1-content .tab-1-content-inner p{
     flex: 3;
-}
-#tab-2-content .tab-2-content-top {
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-	grid-gap: 1rem;
-	justify-content: center;
-	align-items: center;
 }
 
 #tab-2-content .tab-2-content-bottom {
@@ -999,7 +993,6 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 8rem 15rem;
-    /* justify-content: center; */
 }
 .sus-desc{
     letter-spacing: 0.8px;
@@ -1148,6 +1141,65 @@ fieldset {
     padding-top: 2.5rem;
 }
 
+/* productDetails */
+.certification-details{
+    display: flex;
+    justify-content: space-around;
+}
+.certification-detail{
+    padding: 1.5rem;
+    text-align: center;
+}
+.certification-detail h2{
+    margin-bottom: 1rem;
+    color: #12364be3
+}
+.certification-detail a{
+    font-size: 1.3rem;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 1px;
+    font-size: 1.38rem;
+    font-family: sans-serif;
+    /* min-width: 400px; */
+    width: 100% ;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 18px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #f3f3f3;
+}
+
+/* .styled-table tbody tr:nth-of-type() {
+} */
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.other-details h1{
+    color: #177052;
+    padding-top: 2rem;
+}
+.inner-overview{
+    width: 100%;
+}
+
 @media (max-width:900px) {
     .category-content{
         flex-direction: column;
@@ -1261,6 +1313,9 @@ fieldset {
     }
 }
 @media (max-width:600px) {
+    .sus-about{
+        padding: 2.5rem;
+    }
     .about{
         flex-direction: column;
     }
@@ -1286,6 +1341,9 @@ fieldset {
     }
 }
 @media (max-width:500px) {
+    .certification-details{
+        flex-direction: column;
+    }
     .product{
         flex-direction: column;
     }
