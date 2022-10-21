@@ -1200,6 +1200,29 @@ fieldset {
     width: 100%;
 }
 
+.news-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.news-card{
+    margin: 2rem;
+    max-width: 250px;
+}
+.news-img img{
+    height: 150px;
+    margin-bottom: 1rem;
+}
+.news-content-title{
+    font-weight: bold;
+    font-size: 1.54rem;
+    letter-spacing: 1.1px;
+    margin-bottom: 1rem;
+}
+.news-content-desc{
+    font-size: 1.3rem;
+    letter-spacing: 0.8px;
+}
 @media (max-width:900px) {
     .category-content{
         flex-direction: column;
