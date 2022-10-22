@@ -1224,6 +1224,22 @@ fieldset {
     font-size: 1.3rem;
     letter-spacing: 0.8px;
 }
+.about-title-img{
+    height: 75vh;
+    background-color: #cccccc;
+    background-image: url("./assets/pics/about-slider.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about-us-img-follow{
+    z-index: 1;
+    margin-top: -30rem;
+}
+.background{
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+}
 @media (max-width:900px) {
     .category-content{
         flex-direction: column;
