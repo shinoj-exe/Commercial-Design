@@ -1204,6 +1204,7 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-bottom: 1px solid white;
 }
 .news-card{
     margin: 2rem;
