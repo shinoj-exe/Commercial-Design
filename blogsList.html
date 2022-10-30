@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/73c26c8203.js" crossorigin="anonymous"></script>
-
+    
+    <title>Blogs</title>
 </head>
 <body>
-        <!-- Header -->
+<!-- Header -->
 <header style="background-color: #29323c" id="header">
     <div class="header container">
         <div class="nav-bar">
@@ -22,11 +22,12 @@
                     <i class="fas fa-bars"></i>
                 </div>               
                 <ul class="mainMenu">   
-                    <li><a href="./index.html" >Home</a></li>
-                    <li><a href="./productList.html">Products</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./sustainability.html">Sustainability</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./index.html" data-after="Home">Home</a></li>
+                    <li><a  href="./productList.html" data-after="Products">Products</a></li>
+                    <li><a  href="./about.html"  data-after="About">About</a></li>
+                    <li><a  href="./blogsList.html"  data-after="About">Blogs</a></li>
+                    <li><a  href="./sustainability.html" data-after="Sustainability">Sustainability</a></li>
+                    <li><a  href="./contact.html" data-after="Contact">Contact</a></li>
                     
                     <div class="closeMenu">
                     <i class="far fa-window-close"></i>
@@ -38,72 +39,50 @@
 </header>
 <!-- End Header -->
 
-<div class="about-title-img">
-    <!-- <img src="./assets/pics/about-slider.jpg" alt=""> -->
+<div class="list-title title">
+    <h1>Blogs</h1>
 </div>
 
-<div class="sus-intro abt-intro">
-    <div class="sus-intro-wrapper about-us-img-follow ">
-
-        <div class="background">
-            <div class="sus-about ">
-                <div class="sus-title section-title">About us</div>
-                <div class="sus-desc">
-                    <p>Every Day, 28 people dependent on agriculture commit suicide in India. Surprisingly, landed farmers account for 86 per cent of the suicides.</p>
-                    <p>
-                        That's my motivation to begin Kanchan Overseas. I am Harpit Agrawal, Proprietor, Kanchan Overseas.
-                        After completing a master's in Business administration, and serveing for 2 years in corporates worId I
-                        felt a need for change in Indian Agricuture. Thus embarked on journey based on my philosopy.
-                    </p>
-                    <p>
-                        My philosophy is "Agriculture is Business".
-                    </p>
-                    <p>
-                        Farmers need to think and act like businessmen. They need to adopt practices which adds value in terms
-                        of safety of their produce for human consumption; increase productivity; and maintains sustainaibility of
-                        their farms aganist climate change.</div>
-                    </p>
+<div class="footer-wrapper">
+    <div class="news-cards">
+        <div class="blog-card">
+            <div class="news-img">
+                <img src="./assets/pics/crop.jpg" alt="">
+            </div>
+            <div class="news-content">
+                <div class="news-content-title"><a href="./blog.html"> MARKET REPORTS</a></div>
+                <div class="news-content-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, voluptatibus?</div>
             </div>
         </div>
-
-        <div class="sus-video">
-            <video src="./assets/Videos/production.mp4" autoplay loop muted></video>
+        <div class="blog-card">
+            <div class="news-img">
+                <img src="./assets/pics/food.jpg" alt="">
+            </div>
+            <div class="news-content">
+                <div class="news-content-title"><a href="./blog.html"> FOOD FOR THOUGHT BLOG</a></div>
+                <div class="news-content-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, voluptatibus?</div>
+            </div>
         </div>
-    </div>
-</div>
-
-
-<div class="sus-info container">
-    <div class="about" id="about">
-        <div class="about-left left-half info-pic-half">
-            <img src="/assets/Images/company.svg" alt="">
+        <div class="blog-card">
+            <div class="news-img">
+                <img src="./assets/pics/sustainability-news.jpg" alt="">
+            </div>
+            <div class="news-content">
+                <div class="news-content-title"><a href="./blog.html">SUSTAINABILITY</a></div>
+                <div class="news-content-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, voluptatibus?</div>
+            </div>
         </div>
-        <div class="about-right right-half">
-            <div class="about-title info-title section-title">Our <span>Mission</span></div>
-            <div class="about-desc description">
-                <p>Bring inspiration and systems of change in Indian Agriculture.</p>
-                <p>Indian agriculture is far from resolving issues of pesticide residue levels and low production levels per
-                    hectare. Meanwhile exposure to pesticides are causing diseases and low production levels are concern
-                    to world's population which are projected to reach 9.8 Billion by 2050.</p>
+        <div class="blog-card">
+            <div class="news-img">
+                <img src="./assets/pics/spices.jpg" alt="">
+            </div>
+            <div class="news-content">
+                <div class="news-content-title"><a href="./blog.html">SPICE SCHOOL</a></div>
+                <div class="news-content-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, voluptatibus?</div>
             </div>
         </div>
     </div>
-    <div class="offerings" id="offerings">
-        <div class="offer-left left-half">
-            <div class="offer-title info-title section-title">Outcomes we intend to achieve  <span>through our mission</span></div>
-            <div class="offer-desc description">
-                <p>Prosperity: inspire farmers to accept good agriculture practices to make agriculture rewarding financially.</p>
-                <p>Reliability: to become reliable supplier of agriculture produce who meets customer requirments</p>
-                <p>Sustainaibility: regenerate farms not only to withstand but have positive impact on global climate change.</p>
-            </div>
-        </div>
-        <div class="offer-right right-half info-pic-half">
-            <img src="/assets/Images/infrastructure.svg" alt="">
-        </div>
-    </div>
-
 </div>
-
 
 <footer>
     <div class="footer-wrapper">
@@ -146,6 +125,8 @@
             </div>
         </div>
     </div>
+
+ 
     <div class="footer-wrapper">
         <div class="news-section">
             <div class="newsletter">
@@ -205,8 +186,7 @@
         <p>©2022 All rights reserved. Various trademarks held by their respective owners.</p>
     </div>
 </footer>
-
-<script src="script.js"></script>
-
+    
+<script src="./hamburger.js"></script>
 </body>
 </html>

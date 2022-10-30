@@ -20,6 +20,7 @@ a{
 }
 a:visited{
     text-decoration: none;
+    color: inherit;
 }
 .container{
     min-height: 100vh;
@@ -386,17 +387,21 @@ p{
 
 /* PRODUCT LIST PAGE */
 .title{
-    background-color: #29494baf;
+    /* background-color: #29494baf; */
     min-height: 50%;
     display: flex;
     justify-content: center;
     padding: 10rem 3rem 2rem ;
     align-items: center;
+    position: relative;
 }
 .title h1{
     font-size: 6rem;
-    color: #fff;
-    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #29494b;
+    text-transform: uppercase;
+    border-bottom: #009879 3px solid;
 }
 
 /* FILTER */
@@ -936,6 +941,7 @@ footer{
     border-top:  2px solid #177052;
 }
 .contact-details{
+    padding-left: 1rem;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -1208,7 +1214,18 @@ fieldset {
 }
 .news-card{
     margin: 2rem;
+    max-width: 300px;
+}
+.blog-card{
+    margin: 2rem;
     max-width: 250px;
+}
+.blogs-wrapper{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0 ;
 }
 .news-img img{
     height: 150px;
@@ -1239,6 +1256,13 @@ fieldset {
 .background{
     background-color: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(10px);
+}
+.product-description{
+    text-align: justify;
+}
+.product-name h1{
+    font-size: 2.8rem;
+    margin: 0 auto 2rem;
 }
 @media (max-width:900px) {
     .category-content{
@@ -1466,7 +1490,7 @@ fieldset {
 
 .header-overlay p{
     color: white;
-    border: white solid 2px;
+    /* border: white solid 2px; */
     z-index: 20;
     font-size: 3.5rem;
     font-weight: 900;
