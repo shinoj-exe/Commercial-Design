@@ -20,7 +20,8 @@ a{
 }
 a:visited{
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
+    color: #1f7064;
 }
 .container{
     min-height: 100vh;
