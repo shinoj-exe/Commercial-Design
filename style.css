@@ -808,7 +808,7 @@ p{
 footer{
     background-color: #292929;
     background-color: #29494baf;
-    /* background-color: #175c20; */
+    background-color: #214e27c7;
     color: white;
     display: flex;
     flex-direction: column;
@@ -819,6 +819,9 @@ footer{
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
+}
+.footer-cols li img{
+    max-height: 50%;
 }
 .news-section{
     flex: 1;
@@ -1429,6 +1432,9 @@ fieldset {
     }
 }
 @media (max-width:500px) {
+    .footer-cols li img{
+        max-height: 100%;
+    }
     .certification-details{
         flex-direction: column;
     }
