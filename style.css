@@ -96,12 +96,19 @@ p{
 .cta:hover{
     background-color: #34ba7c;
 }
-
 .brand a img{
+    max-height: 95px;
+    margin: 0.5rem 0;
+    display: block;
+    width: 270px;
+}
+.brand a img.active{
+    display: none;
     max-height: 95px;
     margin: 0.5rem 0;
     width: 270px;
 }
+
 
 .brand h1{
     font-size: 3rem;
@@ -950,7 +957,7 @@ footer{
     border-top:  2px solid #177052;
 }
 .contact-details{
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     flex: 1;
     display: flex;
     flex-direction: column;
