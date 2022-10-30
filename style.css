@@ -97,6 +97,12 @@ p{
     background-color: #34ba7c;
 }
 
+.brand a img{
+    max-height: 80px;
+    margin: 0.5rem 0;
+    width: 270px;
+}
+
 .brand h1{
     font-size: 3rem;
     text-transform: uppercase;
@@ -795,6 +801,7 @@ p{
 footer{
     background-color: #292929;
     background-color: #29494baf;
+    /* background-color: #175c20; */
     color: white;
     display: flex;
     flex-direction: column;
