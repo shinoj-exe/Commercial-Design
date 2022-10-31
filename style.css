@@ -47,7 +47,7 @@ p{
 }
 .btn{
     background-color: #12364be3;
-    border: 1px solid #34ba7c ;
+    border: 1px solid #175c20 ;
     border-radius: 150px;
     color: #fff;
     font-weight: bold;
@@ -61,7 +61,7 @@ p{
 .btn:hover{
     background-color: #1aa966;
     color: #fff;
-    /* color: #34ba7c; */
+    /* color: #175c20; */
     color: #29494b;
     background-color: #fff;
 }  
@@ -73,11 +73,11 @@ p{
     text-transform: uppercase;
     letter-spacing: .5rem;
     text-align: center;
-    /* border-bottom: #34ba7c 10px solid ; */
-    border-bottom: linear-gradient(#fff, #34ba7c) 10px solid;
+    /* border-bottom: #175c20 10px solid ; */
+    border-bottom: linear-gradient(#fff, #175c20) 10px solid;
 }
 .section-title span{
-    color: #34ba7c;
+    color: #175c20;
 }
 
 .cta{
@@ -85,7 +85,7 @@ p{
     padding: 10px 30px;
     color: #fff;
     background-color: transparent;
-    border: 2px solid #34ba7c;
+    border: 2px solid #175c20;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -94,7 +94,7 @@ p{
 }
 
 .cta:hover{
-    background-color: #34ba7c;
+    background-color: #175c20;
 }
 .brand a img{
     max-height: 95px;
@@ -116,7 +116,7 @@ p{
     color: #fff;
 }
 .brand h1 span{
-    color: #34ba7c;
+    color: #175c20;
 }
 /* Header */
 #header{
@@ -188,7 +188,7 @@ p{
 }
 
 #header .nav-list ul li:hover a{
-    color: #34ba7c;
+    color: #175c20;
 }
 
 .video{
@@ -373,7 +373,7 @@ p{
     width: 25%;
     height: 5px;
     bottom: -1rem;
-    background-color: #34ba7c;
+    background-color: #175c20;
     background-image: linear-gradient(to right , #177052, #256e6b, #1caf8a, #3ac786,#fff,#fff,#fff);
 }
 /* ABOUT US */
@@ -639,12 +639,12 @@ p{
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: solid #34ba7c 3px;
+    border: solid #175c20 3px;
     cursor: pointer;
     transition: all 0.15s ease;
     margin: 5px;
   }
-  .dots label:hover {background: #34ba7c;}
+  .dots label:hover {background: #175c20;}
   #img1:checked ~ .m1 {
     margin-left: 0;
   }
@@ -656,6 +656,9 @@ p{
   }
   #img4:checked ~ .m4 {
     margin-left: -300%;
+  }
+  #img5:checked ~ .m5 {
+    margin-left: -400%;
   }
 
 .product-details{
@@ -749,7 +752,7 @@ p{
 }
 
 .tab-border {
-	border-bottom: #34ba7c 4px solid;
+	border-bottom: #175c20 4px solid;
 }
 /* .tab-content-item{
     min-height: 250px;
@@ -809,6 +812,8 @@ footer{
     background-color: #292929;
     background-color: #29494baf;
     background-color: #214e27c7;
+    background-color: #175c20;
+
     color: white;
     display: flex;
     flex-direction: column;
@@ -914,7 +919,7 @@ footer{
     margin-left: 5px;
 }
 .private-links li a:hover{
-    color: #34ba7c;
+    color: #175c20;
 }
 /* social-media */
 
@@ -930,7 +935,7 @@ footer{
 }
 .to-download a{
     display: flex;
-    color: #34ba7c;
+    color: #175c20;
     font-family: "Lato";
     font-size: 14px;
     font-weight: 600;
@@ -944,7 +949,7 @@ footer{
     margin-left: 20px;
 }
 .social-media a i:hover{
-    color: #34ba7c;
+    color: #175c20;
 }
 .legal p{
     font-family: sans-serif;
@@ -1123,7 +1128,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #34ba7c;
+  background: #175c20;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
