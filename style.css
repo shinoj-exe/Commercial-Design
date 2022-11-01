@@ -1296,6 +1296,37 @@ fieldset {
     font-size: 2.8rem;
     margin: 0 auto 2rem;
 }
+@keyframes fade{
+    from{
+      opacity:0.4;
+    }
+    to{
+      opacity:1;
+    }
+}
+  
+#slider{
+    margin:0 auto;
+    width:80%;
+    overflow:hidden;
+  }
+  
+  .slides{
+    overflow:hidden;
+    animation-name:fade;
+    animation-duration:1s;
+    display:none;
+  }
+  
+  .slides img{
+    width:100%;
+  }
+
+@media (max-width:567px){
+    #slider{
+      width:100%;
+    }
+}
 @media (max-width:900px) {
     .category-content{
         flex-direction: column;
