@@ -23,6 +23,15 @@ a:visited{
     /* color: inherit; */
     color: #1f7064;
 }
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: 0;
+    /* background: transparent; */
+    /* color: #fff; */
+    padding: 4px 0px;
+    border-radius: 9px;
+  }
 .container{
     min-height: 100vh;
     width: 100%;
